@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+
+<!--<script>-->
+<!--  alert(document.cookie)-->
+<!--</script>-->
+
+
+
+<script nonce={{nonce}}>
+    alert("서버로부터 인증받은 자바스크립트")
+</script>
+
+
+<script nonce="world">
+    alert("허가받지 않은 스크립트")
+</script>
+
+
+
+<a href="javascript:alert('aaa')"> alert 뜨고 떠야하는 문구</a>
+
+</body>
+</html>
